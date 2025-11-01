@@ -1,14 +1,43 @@
-# Task Manager API
+# 🧩 Task Manager API
 
-A small Flask REST API that implements CRUD for tasks.
+A Python-based REST API for managing tasks using **Flask**.  
+This project demonstrates clean API design, CRUD operations, and proper RESTful principles — ideal for beginners and data-driven app prototypes.
 
-## Features
-- Create, read, update, delete tasks (JSON)
-- Simple in-memory storage (sample_data.json)
+---
 
-## Run
-1. Clone repo
-2. Install: `pip install -r requirements.txt`
-3. Run: `python app.py`
+## 🚀 Features
+- ✅ Create, Read, Update, and Delete (CRUD) tasks  
+- 🔐 In-memory data handling (no database required)  
+- 🧭 REST API built with Flask and Flask-RESTful  
+- ⚡ Clean and modular codebase  
+- 🧰 Easy to extend with database or authentication later  
 
-Test endpoints with Postman or curl: GET /tasks, POST /tasks, PUT /tasks/:id, DELETE /tasks/:id
+---
+
+## 🧠 Tech Stack
+- **Python 3.x**  
+- **Flask**  
+- **Flask-RESTful**  
+- **JSON**  
+
+---
+
+## 🧩 API Endpoints
+
+| Method | Endpoint        | Description         |
+|--------|------------------|---------------------|
+| GET    | `/tasks`         | Fetch all tasks     |
+| POST   | `/tasks`         | Create a new task   |
+| GET    | `/tasks/<id>`    | Fetch task by ID    |
+| PUT    | `/tasks/<id>`    | Update task details |
+| DELETE | `/tasks/<id>`    | Delete a task       |
+
+---
+
+## 🧪 How to Run Locally
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/bhoyrapurva23399/task-manager-api.git
+   cd task-manager-api
+
