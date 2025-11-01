@@ -1,0 +1,14 @@
+# Task Manager API
+
+A small Flask REST API that implements CRUD for tasks.
+
+## Features
+- Create, read, update, delete tasks (JSON)
+- Simple in-memory storage (sample_data.json)
+
+## Run
+1. Clone repo
+2. Install: `pip install -r requirements.txt`
+3. Run: `python app.py`
+
+Test endpoints with Postman or curl: GET /tasks, POST /tasks, PUT /tasks/:id, DELETE /tasks/:id
