@@ -40,4 +40,8 @@ This project demonstrates clean API design, CRUD operations, and proper RESTful 
    ```bash
    git clone https://github.com/bhoyrapurva23399/task-manager-api.git
    cd task-manager-api
+## What I learned
+- Built REST endpoints using Flask-RESTful
+- Handled JSON requests and responses
+- Practiced writing clear documentation and example requests
 
