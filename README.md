@@ -63,6 +63,7 @@ The API is tested using Thunder Client or Postman to simulate requests.
 💼 Author
 
 Apurva Bhoyar
+
 Aspiring Data Analyst & Python Developer
 
 
