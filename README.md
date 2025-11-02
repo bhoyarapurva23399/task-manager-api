@@ -27,19 +27,19 @@ The API is tested using Thunder Client or Postman to simulate requests.
 ## 📸 Project Screenshots
 
 ### 1️⃣ Run Flask Server
-![Run Server](screenshots/1_run_server.png.jpg)
+![Run Server](screenshots/1_run_server.png)
 
 
 ### 2️⃣ Initial GET Request (Empty Task List)
-![Empty Task List](screenshots/2_get_request_empty_list.png.jpg)
+![Empty Task List](screenshots/2_get_request_empty_list.png)
 
 
 ### 3️⃣ POST Request (Create Task)
-![Create Task](screenshots/3_post_request_create_task.png.jpg)
+![Create Task](screenshots/3_post_request_create_task.png)
 
 
 ### 4️⃣ GET Request (After Adding Task)
-![After Adding Task](screenshots/4_get_request_after_adding_task.png.jpg)
+![After Adding Task](screenshots/4_get_request_after_adding_task.png)
 
 ---
 
