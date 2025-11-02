@@ -14,6 +14,15 @@ The API is tested using Thunder Client or Postman to simulate requests.
 ✅ View tasks using GET requests  
 ✅ Simple and lightweight Flask backend
 
+
+---
+
+## 🧠 Project Overview
+
+This project is designed to demonstrate how REST APIs work using Flask.  
+It helps in understanding key concepts such as routing, endpoints, HTTP methods, and JSON responses — all essential for backend or full-stack development.
+
+
  ---
 
 ## 🔧 Technologies Used
@@ -26,18 +35,18 @@ The API is tested using Thunder Client or Postman to simulate requests.
 
 ## 📸 Project Screenshots
 
-### 1️⃣ Run Flask Server
+###  🟢1️⃣ Run Flask Server
 ![Run Server](screenshots/task-manager-api-main/task-manager-api-main/screenshots/1_run_server.png.jpg)
 
 
-### 2️⃣ Initial GET Request (Empty Task List)
+###  🟡2️⃣ Initial GET Request (Empty Task List)
 ![Empty Task List](screenshots/task-manager-api-main/task-manager-api-main/screenshots/2_get_request_empty_list.png.jpg)
 
 
-### 3️⃣ POST Request (Create Task)
+###  🔵3️⃣ POST Request (Create Task)
 ![Create Task](screenshots/task-manager-api-main/task-manager-api-main/screenshots/3_post_request_create_task.png.jpg)
 
-### 4️⃣ GET Request (After Adding Task)
+###  🔴4️⃣ GET Request (After Adding Task)
 ![After Adding Task](screenshots/task-manager-api-main/task-manager-api-main/screenshots/4_get_request_after_adding_task.png.jpg)
 ---
 
