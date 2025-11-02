@@ -1,116 +1,81 @@
-# 🧠 Task Manager API
+# Task Manager API (Flask)
 
-A Python-based **Task Manager** project built using **Flask**, which provides a simple **REST API** for managing tasks — including creating, updating, viewing, and deleting tasks.  
-This project demonstrates practical backend development skills with Flask, RESTful APIs, and JSON-based communication.
-
----
-
-## 🚀 Features
-
-- Create new tasks with title and description  
-- Retrieve all tasks or a single task by ID  
-- Update task details (status, description, etc.)  
-- Delete tasks  
-- JSON-based responses for easy integration  
-- Built-in testing and examples included  
+## 🧠 Project Overview
+This project is a simple Task Manager API built using Flask.  
+It allows users to perform basic CRUD (Create, Read, Update, Delete) operations on tasks.  
+The API is tested using Thunder Client or Postman to simulate requests.
 
 ---
 
-## 🧩 Technologies Used
+## ⚙️ Features
+✅ Add new tasks  
+✅ Retrieve all tasks  
+✅ Mark tasks as complete or incomplete  
+✅ View tasks using GET requests  
+✅ Simple and lightweight Flask backend
 
-- **Python 3**
-- **Flask**
-- **Requests**
-- **JSON**
-- **Unit Testing (pytest)**
+ ---
 
----
-
-## 📂 Project Structure
-
-task-manager-api/
-│
-├── app.py # Main Flask app (entry point)
-├── main_api.py # Core REST API logic
-├── utils.py # Helper functions
-├── requirements.txt # Dependencies
-│
-├── tests/
-│ └── test_requests.py # Basic test scripts
-│
-├── examples/
-│ └── curl_examples.md # API request examples
-│
-├── screenshots/
-│ └── placeholder.txt # Optional screenshots folder
-│
-└── README.md
-
+## 🔧 Technologies Used
+- Python
+- Flask
+- Thunder Client (for testing APIs)
+- VS Code
 
 ---
 
-## ⚙️ Installation & Setup
+## 📸 Project Screenshots
 
-1. **Clone the Repository**
+### 1️⃣ Run Flask Server
+![Run Server](./screenshots/1_run_server.png)
+
+### 2️⃣ Initial GET Request (Empty Task List)
+![Empty Task List](./screenshots/2_get_request_empty_list.png)
+
+### 3️⃣ POST Request (Create Task)
+![Create Task](./screenshots/3_post_request_create_task.png)
+
+### 4️⃣ GET Request (After Adding Task)
+![Get Request After Adding Task](./screenshots/4_get_request_after_adding_task.png)
+
+---
+
+## 🚀 How to Run
+1. Clone this repository  
    ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/task-manager-api.git
-   cd task-manager-api
+   git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
 
+ 
+2. Install dependencies:
+   ```bash
+     pip install flask
+   ```
    
-2. Install Dependencies
-  ```bash
-     pip install -r requirements.txt
-  ```
-
-3. Run the Flask Server
+3. Run the app:
    ```bash
-     python app.py
+     python main_api.py
    ```
 
-5. Test the API
+4. Open Thunder Client / Postman
    ```bash
-    GET http://127.0.0.1:5000/tasks
+    http://127.0.0.1:5000/tasks
    ```
-
-
-   📸 Example Output
-   POST /tasks
-{
-  "title": "Finish GitHub project",
-  "description": "Complete the Flask API integration"
-}
-
-
-Response:
-{
-  "id": 1,
-  "title": "Finish GitHub project",
-  "description": "Complete the Flask API integration",
-  "status": "Pending"
-}
-
-
-📚 Learning Highlights
-
-Practical backend design with Flask
-
-Understanding REST APIs and HTTP methods
-
-Structuring Python projects for GitHub portfolio
-
-Writing clean and maintainable code
-
-👩‍💻 Author
+💼 Author
 
 Apurva Bhoyar
+Aspiring Data Analyst & Python Developer
 
-💻 GitHub: https://github.com/YOUR_GITHUB_bhoyarapurva23399
-
-🏷️ Tags
-
-python flask rest-api backend-development task-manager
 
 ---
+
+### 💻 Step 4: Commit and push to GitHub
+In VS Code terminal:
+
+```bash
+git add .
+git commit -m "Added project screenshots and updated README"
+git push origin main
+
 
 
 
