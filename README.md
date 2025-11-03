@@ -79,13 +79,43 @@ Aspiring Data Analyst & Python Developer
 
 ---
 
-### 💻 Step 4: Commit and push to GitHub
-In VS Code terminal:
+### 💻 Commit and push to GitHub
 
 ```bash
 git add .
 git commit -m "Added project screenshots and updated README"
 git push origin main
+
+```
+
+## 🔗 API Endpoints
+
+
+| Method | Endpoint       | Description              |
+|--------|----------------|--------------------------|
+| GET    | `/tasks`       | Retrieve all tasks       |
+| POST   | `/tasks`       | Add a new task           |
+| PUT    | `/tasks/<id>`  | Update a task by ID      |
+| DELETE | `/tasks/<id>`  | Delete a task by ID      |
+
+### Example Task JSON
+```json
+{
+  "id": 1,
+  "title": "Learn Flask",
+  "completed": false
+}
+
+```
+🔮 Future Enhancements
+
+Add user authentication (login/signup)
+
+Connect the API to a real database like SQLite or MySQL
+
+Build a simple frontend using HTML or React to interact with the API
+
+Host the API on Render or Vercel
 
 
 
