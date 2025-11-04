@@ -2,8 +2,11 @@
 
 ## 🧠 Project Overview
 This project is a simple Task Manager API built using Flask.  
-It allows users to perform basic CRUD (Create, Read, Update, Delete) operations on tasks.  
-The API is tested using Thunder Client or Postman to simulate requests.
+It allows users to perform basic CRUD (Create, Read, Update, Delete) operations on tasks. The API is tested using Thunder Client or Postman to simulate requests.
+
+This project is designed to demonstrate how REST APIs work using Flask.  
+It helps in understanding key concepts such as routing, endpoints, HTTP methods, and JSON responses — all essential for backend or full-stack development.
+
 
 ---
 
@@ -17,13 +20,7 @@ The API is tested using Thunder Client or Postman to simulate requests.
 
 ---
 
-## 🧠 Project Overview
 
-This project is designed to demonstrate how REST APIs work using Flask.  
-It helps in understanding key concepts such as routing, endpoints, HTTP methods, and JSON responses — all essential for backend or full-stack development.
-
-
- ---
 
 ## 🔧 Technologies Used
 - Python
