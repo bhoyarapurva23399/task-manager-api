@@ -1,1 +1,10 @@
-from flask import Flask, jsonify, request\n\napp = Flask(__name__)\n\ntasks = []\n\n@app.route('/tasks', methods=['GET'])\ndef get_tasks():\n    return jsonify(tasks)\n\n@app.route('/tasks', methods=['POST'])\ndef add_task():\n    task = request.json\n    tasks.append(task)\n    return jsonify(task), 201\n\nif __name__ == '__main__':\n    app.run(debug=True)
+from flask import Flask, jsonify, request
+
+app = Flask(__name__)
+
+tasks = []
+
+@app.route('/tasks', methods=['GET'])
+def get_tasks():
+    return jsonify(tasks)
+
